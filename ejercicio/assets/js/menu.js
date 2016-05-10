@@ -4,7 +4,7 @@ $(document).ready(function(){
 // al hacer click cambia de color
 $('ul:first li a').click(function() {
    $('.current-menu-item').removeClass();
-  $(this).find().addClass('current-menu-item');
+  $(this).find().addClass('.current-menu-item');
 
 });
 
